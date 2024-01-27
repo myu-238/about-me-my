@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --primary-color: #d55bde;
+    --secondary-color: #aa9fc8;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -105,4 +105,27 @@ p {
 .subtitle-location {
     color: #6c757d;
     font-size: 24px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .subtitle-location {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .project-title {
+        margin-top: 30px;
+    }
+
+    .weather-app-button {
+        margin-bottom: 30px;
+    }
 }
