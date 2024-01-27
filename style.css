@@ -116,6 +116,10 @@ p {
         font-size: 40px;
     }
 
+    p {
+        text-align: justify;
+    }
+
     .subtitle-location {
         font-size: 18px;
         margin-top: 12px;
